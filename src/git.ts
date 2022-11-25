@@ -9695,6 +9695,13 @@ const completionSpec: Fig.Spec = {
       icon: "fig://template?color=2ecc71&badge=🔥",
       // type: "shortcut",
     },
+    {
+      name: "commit --amend 'msg'",
+      description: "Git amend shortcut",
+      insertValue: "commit --amend '{cursor}'",
+      icon: "fig://template?color=2ecc71&badge=🔥",
+      // type: "shortcut",
+    },
   ],
 };
 
